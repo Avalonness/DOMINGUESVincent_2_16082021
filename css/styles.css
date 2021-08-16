@@ -30,6 +30,11 @@ body
     line-height: 1.42857143;
 }
 
+a
+{
+    text-decoration:none; 
+    list-style: none;
+}
 /*___________________ Header__________________ */
 .container
 {
@@ -73,8 +78,6 @@ header ul a
 
 header a
 {
-    text-decoration:none; 
-    list-style: none;
     margin-top: 45px;
     color: rgba(0, 0, 0, 1);
 }
@@ -85,5 +88,31 @@ header a
     color: rgba(0, 101, 252, 1);
 }
 
+/*___________________ footer__________________ */
+footer
+{
+    background-color: rgba(242, 242, 242, 1);
+}
 
+.footer-contain{
+    display: flex;
+    padding: 48px 0px;
+}
+
+.footer-contain .footer-items{
+    width: 33.333%;
+}
+
+.footer-contain .footer-items h3{
+    font-family: 'ralewaybold';
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.footer-contain .footer-items ul li a{
+    line-height: 1.9;
+    color: #000;
+    font-size: 16px;
+}
 
