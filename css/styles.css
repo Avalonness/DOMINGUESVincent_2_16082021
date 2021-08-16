@@ -35,6 +35,8 @@ a
     text-decoration:none; 
     list-style: none;
 }
+
+
 /*___________________ Header__________________ */
 .container
 {
@@ -137,7 +139,7 @@ main p
     padding-top: 20px;
 }
 
-.fa-map-marker-alt
+.main_filtertool .fa-map-marker-alt
 {
     width: 50px;
     height: 50px;
@@ -234,7 +236,7 @@ main p
 .main_filterinfos
 {
     display: flex;
-    padding-top: 35px;
+    padding-top: 40px;
     align-items: center;
 }
 
