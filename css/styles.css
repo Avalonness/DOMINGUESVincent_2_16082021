@@ -41,6 +41,7 @@ a
     width: 1340px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .header_contain
@@ -116,3 +117,143 @@ footer
     font-size: 16px;
 }
 
+/*___________________ Main____________________ */
+/*___________________ Main-Filter_____________ */
+main h1
+{
+    font-family: 'ralewaybold', sans-serif;
+    font-size: 23px;
+}
+
+main p
+{
+  font-size: 16px;  
+}
+
+/*___________________ Main-Filter Tools_____________ */
+.main_filtertool
+{
+    display: flex;
+    padding-top: 20px;
+}
+
+.fa-map-marker-alt
+{
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(242, 242, 242, 1);
+    border-top-left-radius: 35%;
+    border-bottom-left-radius: 35%;
+}
+
+.searchingtool
+{
+    height: 50px;
+    width: 235px;
+    border-left: none;
+    border-right: none;
+    border: 1px solid rgba(242, 242, 242, 1);
+}
+
+.searchingtool::placeholder
+{
+    color: rgba(0, 0, 0, 1);
+    font-family: 'ralewaybold', sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.buttonsearch
+{
+    border: none;
+    font-family: 'ralewaybold', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 101, 252, 1);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/*___________________ Main-Filter Options_____________ */
+.main_filteroption
+{
+    padding-top: 40px;
+    display: flex;
+}
+
+.main_filteroption ul
+{
+    display: flex;
+}
+
+.main_filteroption li
+{
+    display: flex;
+    margin-left: 40px;
+    padding-right: 10px;
+    border: 3px solid rgba(242, 242, 242, 1);
+    border-radius: 60px;
+    border-left: none;
+}
+
+.main_filteroption .fas
+{
+    font-size: 20px;
+    color: rgba(0, 101, 252, 1);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_filteroption input
+{
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'ralewaybold', sans-serif;
+    font-size: 18px;
+}
+
+.main_filteroption h2
+{
+    font-family: 'ralewaybold', sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+/*___________________ Main-Filter Infos_____________ */
+.main_filterinfos
+{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+}
+
+.main_filterinfos .fa-info
+{
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgba(242, 242, 242, 1);
+    border-radius: 50%;
+    color: rgba(0, 101, 252, 1);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main_filterinfos p
+{
+    font-size: 16px;
+}
