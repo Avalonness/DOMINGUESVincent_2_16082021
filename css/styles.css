@@ -1,9 +1,89 @@
 /* __________________ RESERVIA CSS___________________ */
 /* __________________ Font___________________________ */
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway/raleway-regular/raleway-regular-webfont.woff2') format('woff2'),
+         url('fonts/raleway/raleway-regular/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('fonts/raleway/raleway-bold/raleway-bold-webfont.woff2') format('woff2'),
+         url('fonts/raleway/raleway-bold/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /*___________________ Minireset CSS__________________ */
 html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 /*------------------------------------*\
 	General
 \*------------------------------------*/
+
+body
+{
+    font-family: 'ralewayregular', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+/*___________________ Header__________________ */
+.container
+{
+    width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_contain
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 1);
+}
+
+header ul
+{
+    margin-top: 45px;
+    margin-left: 700px;
+}
+
+header li
+{
+    display: inline;
+    margin-left: 30px;
+}
+
+header li a:hover
+{
+    border-top: 2px solid rgba(0, 101, 252, 1); 
+    color: rgba(0, 101, 252, 1);
+}
+
+header ul a
+{
+    padding-top: 44px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header a
+{
+    text-decoration:none; 
+    list-style: none;
+    margin-top: 45px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.register
+{
+    font-family: 'ralewaybold', sans-serif;
+    color: rgba(0, 101, 252, 1);
+}
+
+
+
