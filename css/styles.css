@@ -480,6 +480,11 @@ main p
 
 }
 
+.main_activity_content a
+{
+    color: rgba(0, 0, 0, 1);
+}
+
 .main_activity_content h3
 {
     font-family: 'ralewaybold', sans-serif;
