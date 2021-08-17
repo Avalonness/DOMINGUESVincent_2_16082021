@@ -337,6 +337,7 @@ main p
 
 .main_article img
 {
+    object-fit: cover;
     width: 235px;
     height: 115px;
     border-top-left-radius: 15px;
@@ -371,7 +372,7 @@ main p
 .main_aside_accomodation
 {
     background-color: rgba(242, 242, 242, 1);
-    width: 95%;
+    width: 92%;
     border-radius: 15px;
     margin-left: 40px;
 }
@@ -418,6 +419,7 @@ main p
 
 .aside_accomodation_article img
 {
+    object-fit: cover;
     width: 130px;
     height: 135px;
     border-top-left-radius: 15px;
@@ -453,4 +455,101 @@ main p
 .aside_accomodation_article .dislike
 {
     color: rgba(217, 217, 217, 1);
+}
+
+/*___________________ Main_Activity_____________ */
+.main_activity
+{
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.main_activity h2
+{
+    font-family: 'ralewaybold', sans-serif;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.main_activity_content
+{
+    width: 1340px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main_activity_content h3
+{
+    font-family: 'ralewaybold', sans-serif;
+    font-size: 16px;
+    padding: 15px 0 0 15px;
+}
+
+.main_activity_content_large
+{
+    width: auto;
+    height: 445px;
+    box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
+    border-radius: 15px;
+}
+
+.main_activity_content_large img
+{
+    object-fit: cover;
+    width: 300px;
+    height: 390px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main_activity_content_medium
+{
+    width: 22%;
+    height: 445px;
+}
+
+.main_activity_content_small
+{
+    width: auto;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small_activity_hight
+{
+    height: 235px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
+}
+
+.small_activity_hight img
+{
+    object-fit: cover;
+    height: 180px;
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.small_activity_low
+{
+    height: 165px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
+}
+
+.small_activity_low img
+{
+    object-fit: cover;
+    height: 110px;
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
