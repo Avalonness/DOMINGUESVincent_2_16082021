@@ -316,6 +316,7 @@ main p
     padding: 5px 5px 8px 5px;
     border-radius: 15px;
     margin-bottom: 25px;
+    box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
 }
 
 .main_article a
@@ -407,6 +408,7 @@ main p
     border-radius: 15px;
     padding: 5px;
     margin-bottom: 30px;
+    box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
 }
 
 .aside_accomodation_article a
