@@ -408,7 +408,7 @@ main p
     background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
     padding: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 38px;
     box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
 }
 
@@ -443,7 +443,7 @@ main p
 
 .aside_accomodation_article .fas
 {
-    padding-top: 35px;
+    padding-top: 10px;
     font-size: 13px;
 }
 
@@ -462,7 +462,6 @@ main p
 {
     margin-top: 40px;
     padding-top: 20px;
-    display: flex;
 }
 
 .main_activity h2
@@ -507,12 +506,6 @@ main p
     height: 390px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-}
-
-.main_activity_content_medium
-{
-    width: 22%;
-    height: 445px;
 }
 
 .main_activity_content_small
