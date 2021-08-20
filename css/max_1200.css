@@ -1,0 +1,203 @@
+/* __________________ RESERVIA CSS___________________ */
+/* __________________ Font___________________________ */
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway/raleway-regular/raleway-regular-webfont.woff2') format('woff2'),
+         url('fonts/raleway/raleway-regular/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('fonts/raleway/raleway-bold/raleway-bold-webfont.woff2') format('woff2'),
+         url('fonts/raleway/raleway-bold/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*------------------------------------*\
+	General
+\*------------------------------------*/
+
+@media screen and (min-width : 901px) and (max-width: 1200px)
+{
+.container
+{
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+/*___________________ Header__________________ */
+
+.header_contain
+{
+    width: 100%;
+    padding-right: 20px;
+}
+
+header ul
+{
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 450px;
+    
+}
+
+header ul a
+{
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*___________________ Main_Content_____________ */
+.main_content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main_content article
+{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*___________________ Main_Aside_Accomodation_____________ */
+.main_aside_accomodation
+{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.aside_accomodation_article
+{
+    margin-bottom: 15px;
+
+}
+
+
+/*___________________ Main_Accomodation_____________ */
+
+.main_accomodation
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.main_accomodation input
+{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/*___________________ Main_Accomodation_Article_____________ */
+.main_accomodation_article
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_article
+{
+    width: 100%;
+    height: auto;
+}
+
+.main_article img
+{
+    width: 100%;
+    height: 115px;
+    
+}
+
+/*___________________ Main_Activity_____________ */
+.main_activity
+{
+    width: 100%;
+    height: auto;
+}
+
+.main_activity_content
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main_activity h2
+{
+    padding-left: 20px;
+}
+
+.main_activity_content h3
+{
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.main_activity_content_large
+{
+    width: 60%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.main_activity_content_small
+{
+    display: block;
+    width: 40%;
+    height: auto;
+}
+
+.main_activity_content_large img
+{
+    height: 135px;
+    width: 100%;
+}
+
+.small_activity_hight
+{
+    display: block;
+    height: 195px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.small_activity_low
+{
+    display: block;
+    height: 195px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.small_activity_hight img
+{
+    height: 135px;
+    width: 100%;
+
+}
+
+.small_activity_low img
+{
+    height: 135px;
+    width: 100%;
+}
+
+}
