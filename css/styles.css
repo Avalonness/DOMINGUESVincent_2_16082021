@@ -30,6 +30,14 @@ body
     line-height: 1.42857143;
 }
 
+.container
+{
+    max-width: 1340px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a
 {
     text-decoration:none; 
@@ -49,13 +57,6 @@ html {
     scroll-behavior: smooth;
   }
 /*___________________ Header__________________ */
-.container
-{
-    max-width: 1340px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .header_contain
 {
@@ -63,21 +64,33 @@ html {
     justify-content: space-between;
     font-size: 17px;
     color: rgba(0, 0, 0, 1);
+    margin-bottom: 30px;
 }
 
-header ul
+nav
 {
-    margin-top: 45px;
-    margin-left: 700px;
+    flex: 1;
+    padding-right: 30px;
 }
 
-header li
+nav ul
 {
-    display: inline;
-    margin-left: 30px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-header li a:hover
+
+nav li
+{
+    display: flex;
+}
+
+nav li a
+{
+    display: flex;
+}
+
+nav li a:hover
 {
     border-top: 2px solid rgba(0, 101, 252, 1); 
     color: rgba(0, 101, 252, 1);
@@ -85,14 +98,13 @@ header li a:hover
 
 header ul a
 {
-    padding-top: 45px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 header a
 {
-    margin-top: 45px;
+    padding-top: 45px;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -281,7 +293,6 @@ main p
 {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-top: 40px;
 }
 
@@ -394,39 +405,31 @@ main p
 .main_aside_accomodation
 {
     background-color: rgba(242, 242, 242, 1);
-    width: 92%;
     border-radius: 15px;
     margin-left: 40px;
+    padding: 40px 45px;
 }
 
 .aside_accomodation_header
 {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 45px 30px 45px;
     font-family: 'ralewaybold';
     font-size: 22px;
-}
-
-.aside_accomodation_header .fas
-{
-    margin-left: 100px;
+    margin-bottom: 30px;
 }
 
 .main_aside_accomodation_article
 {
-    padding-left: 35px;
-    padding-right: 35px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
 .aside_accomodation_article
 {
-    width: 100%;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 15px;
     padding: 5px;
@@ -442,30 +445,37 @@ main p
 .aside_accomodation_article img
 {
     object-fit: cover;
-    width: 130px;
+    width: 30%;
     height: 135px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+
+.text_aside
+{
+    width: 70%;
+    padding-left: 20px;
 }
 
 .aside_accomodation_name
 {
     font-family: 'ralewaybold';
     font-size: 16px;
+    color: black;
 }
 
-.aside_accomodation_article p
+.text_aside p
 {
+    width: 100%;
     margin-top: 15px;
     color: black;
-    padding-left: 20px;
-    line-height: 1.9;
+    line-height: 1.5;
 
 }
+
 
 .aside_accomodation_article .fas
 {
-    padding-top: 10px;
     font-size: 13px;
 }
 
