@@ -54,6 +54,18 @@ header ul a
     padding-right: 20px;
 }
 
+/*___________________ Main-Filter_____________ */
+.main_filter
+{
+    width: 100%;
+}
+
+.main_filteroption
+{
+    width: 100%;
+}
+
+
 /*___________________ Main_Content_____________ */
 .main_content
 {
