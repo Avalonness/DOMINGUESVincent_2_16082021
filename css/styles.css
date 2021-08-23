@@ -226,6 +226,14 @@ main p
     border: 3px solid rgba(242, 242, 242, 1);
     border-radius: 60px;
     border-left: none;
+    transition: 0.5s;
+}
+
+.main_filteroption li:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 .main_filteroption .fas
@@ -349,8 +357,15 @@ main p
     border-radius: 15px;
     margin-bottom: 25px;
     box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
+    transition: 0.5s;
 }
 
+.main_accomodation_article li:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
 
 .main_article a
 {
@@ -375,7 +390,7 @@ main p
     height: 115px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    
+    transition: .1s;    
 }
 
 .main_article .accomodation_name
@@ -426,6 +441,18 @@ main p
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.main_aside_accomodation_article li
+{
+    transition: 0.5s;
+}
+
+.main_aside_accomodation_article li:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 .aside_accomodation_article
@@ -494,7 +521,7 @@ main p
 {
     margin-top: 40px;
     padding-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .main_activity h2
@@ -529,6 +556,14 @@ main p
     height: auto;
     box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
     border-radius: 15px;
+    transition: 0.5s;
+}
+
+.main_activity_content_large:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 .main_activity_content_large img
@@ -554,6 +589,7 @@ main p
     width: 100%;
     border-radius: 15px;
     box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
+    transition: 0.5s;
 }
 
 .small_activity_hight img
@@ -565,11 +601,19 @@ main p
     border-top-right-radius: 15px;
 }
 
+.small_activity_hight:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
 .small_activity_low
 {
     width: 100%;
     border-radius: 15px;
     box-shadow: 0px 2px 15px rgba(217, 217, 217, 1);
+    transition: 0.5s;
 }
 
 .small_activity_low img
@@ -579,6 +623,13 @@ main p
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+.small_activity_low:hover
+{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 /*------------------------------------*\
