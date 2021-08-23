@@ -580,3 +580,56 @@ main p
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+/*------------------------------------*\
+	Mediaquerries Tablette
+\*------------------------------------*/
+
+@media screen and (min-width : 901px) and (max-width: 1200px)
+{
+
+/*___________________ Header _____________ */
+
+.header_contain
+{
+    padding: 0 40px;
+}
+
+/*___________________ Footer _____________ */
+.footer-contain
+{
+    padding-left: 40px;
+}
+
+/*___________________ Main-Filter_____________ */
+.main_filter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*___________________ Main_Content_____________ */
+.main_content article
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+/*___________________ Main_Accomodation_____________ */
+.main_accomodation
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+/*___________________ Main_Activity_____________ */
+
+
+.main_activity
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+}
