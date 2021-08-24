@@ -178,7 +178,7 @@ main p
 .searchingtool
 {
     height: 50px;
-    width: 235px;
+    width: 100%;
     border-left: none;
     border-right: none;
     border: 1px solid rgba(242, 242, 242, 1);
@@ -497,7 +497,6 @@ main p
     margin-top: 15px;
     color: black;
     line-height: 1.5;
-
 }
 
 
@@ -798,6 +797,8 @@ main p
         display: flex;
         padding-top: 20px;
         justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     /*___________________ Main-Filter Options_____________ */
@@ -851,6 +852,11 @@ main p
         flex-direction: column-reverse;
     }
     
+    /*___________________ Main-Filter Tools_____________ */
+    .main_filtertool
+    {
+        width: 100%;
+    }
     /*___________________ Main_Aside_Accomodation_____________ */
     .main_aside_accomodation
     {
@@ -860,7 +866,7 @@ main p
     
     .aside_accomodation_article
     {
-        margin-bottom: 15px;
+        width: 100%;
     
     }
     
@@ -871,6 +877,11 @@ main p
     {
         width: 100%;
         background-color: rgba(255, 255, 255, 1);
+    }
+
+    .main_aside_accomodation
+    {
+        padding: 10px 15px;
     }
     
     .main_accomodation input
@@ -895,9 +906,15 @@ main p
     .main_article img
     {
         width: 100%;
-        height: 115px;
-        
+        height: 115px;  
     }
+
+    .text_aside p
+    {
+        padding-left: 0;
+        line-height: 1.5;
+    }
+    
     /*___________________ Main_Activity_____________ */
     .main_activity
     {
