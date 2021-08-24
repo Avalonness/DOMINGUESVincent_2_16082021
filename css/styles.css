@@ -16,6 +16,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 /*___________________ Minireset CSS__________________ */
 html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
@@ -204,6 +205,11 @@ main p
     padding-right: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.buttonsearch .fa-search
+{
+    font-size: 0;
 }
 
 /*___________________ Main-Filter Options_____________ */
@@ -856,6 +862,16 @@ main p
     .main_filtertool
     {
         width: 100%;
+    }
+
+    .main_filtertool .buttonsearch
+    {
+        font-size: 0px;
+    }
+
+    .buttonsearch .fa-search
+    {
+        font-size: 16px;
     }
     /*___________________ Main_Aside_Accomodation_____________ */
     .main_aside_accomodation
