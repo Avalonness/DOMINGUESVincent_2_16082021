@@ -867,6 +867,8 @@ main p
     .main_filtertool .buttonsearch
     {
         font-size: 0px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
 
     .buttonsearch .fa-search
