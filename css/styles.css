@@ -101,6 +101,8 @@ header ul a
 {
     padding-left: 20px;
     padding-right: 20px;
+    border-top: 2px solid rgba(0, 101, 252, 0); 
+    
 }
 
 header a
@@ -222,6 +224,7 @@ main p
 .main_filteroption ul
 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .main_filteroption li
@@ -641,7 +644,7 @@ main p
 	Mediaquerries Tablette
 \*------------------------------------*/
 
-@media screen and (min-width : 901px) and (max-width: 1200px)
+@media screen and (max-width : 991px)
 {
 
 /*___________________ Header _____________ */
@@ -652,9 +655,30 @@ main p
 }
 
 /*___________________ Footer _____________ */
+footer 
+{
+    width: 100%;
+    height: auto;
+}
+
 .footer-contain
 {
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contain .footer-items
+{
+    height: auto;
+    width: auto;
+
+}
+
+.footer-contain .footer-items ul
+{
+    margin-bottom: 55px;
 }
 
 /*___________________ Main-Filter_____________ */
@@ -664,6 +688,12 @@ main p
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 15px;
+}
+
+.main_filter li
+{
+    margin-top: 15px;
 }
 
 /*___________________ Main_Content_____________ */
@@ -674,32 +704,30 @@ main p
     flex-direction: column-reverse;
     align-items: center;
 }
+
 /*___________________ Main_Accomodation_____________ */
 .main_accomodation
 {
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
 }
+
 /*___________________ Main_Activity_____________ */
 
-
-.main_activity
-{
-    padding-left: 40px;
-    padding-right: 40px;
-}
 }
 
 /*------------------------------------*\
 	Mediaquerries Mobile
 \*------------------------------------*/
-@media screen and (max-width:900px) 
+@media screen and (max-width:767px) 
 {
 
     .container
     {
-        width: 100%;
+        max-width: 100%;
         height: auto;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     /*___________________ Header__________________ */
     .header_contain
@@ -707,11 +735,6 @@ main p
         flex-wrap: wrap;
     }
     
-    .header_contain a
-    {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     
     nav
     {
@@ -725,12 +748,15 @@ main p
         flex: 1;
         justify-content: center;
         align-items: center;
+        margin-left: -40px;
+        margin-right: -55px;
     }
     
     nav li
     {
         justify-content: center;
         width: 100%;
+                margin-left: -15px;
     }
     
     nav li a
@@ -835,11 +861,7 @@ main p
     }
     
     /*___________________ Main-Filter Infos_____________ */
-    .main_filterinfos
-    {
-        padding-left: 20px;
-    }
-    
+
     /*___________________ Main_Content_____________ */
     .main_content
     {
@@ -895,6 +917,7 @@ main p
     {
         width: 100%;
         background-color: rgba(255, 255, 255, 1);
+        padding: 0px;
     }
 
     .main_aside_accomodation
