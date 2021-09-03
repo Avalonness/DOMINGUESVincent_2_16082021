@@ -859,7 +859,6 @@ footer
         margin-left: 10px;
     }
     
-    /*___________________ Main-Filter Infos_____________ */
 
     /*___________________ Main_Content_____________ */
     .main_content
@@ -878,6 +877,11 @@ footer
         display: flex;
         flex-direction: column-reverse;
     }
+
+    section h4
+{
+    padding-left: 35px;
+}
     
     /*___________________ Main-Filter Tools_____________ */
     .main_filtertool
