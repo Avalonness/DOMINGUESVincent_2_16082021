@@ -903,6 +903,11 @@ footer
         width: 100%;
         margin-left: 0px;
     }
+
+    .aside_accomodation_header
+    {
+        padding-top: 20px;
+    }
     
     .aside_accomodation_article
     {
@@ -978,6 +983,7 @@ footer
     .main_activity section h2
     {
         padding-left: 20px;
+        padding-top: 25px;
     }
     
     .main_activity_content h3
