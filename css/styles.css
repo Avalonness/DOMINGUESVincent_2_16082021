@@ -57,6 +57,14 @@ img {
 html {
     scroll-behavior: smooth;
   }
+
+section h2
+{
+    font-family: 'ralewaybold';
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
 /*___________________ Header__________________ */
 
 .header_contain
@@ -270,7 +278,7 @@ main p
 {
     font-family: 'ralewaybold';
     font-size: 18px;
-    padding-top: 15px;
+    padding-top: 1px;
 }
 
 .main_filteroption input:hover
@@ -306,21 +314,26 @@ main p
     font-size: 16px;
 }
 /*___________________ Main_Content_____________ */
+.main_content
+{
+    margin-top: 30px;
+}
+
 .main_content article
 {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
 }
+
 
 
 /*___________________ Main_Accomodation_____________ */
 .main_accomodation
 {
-    background-color: rgba(242, 242, 242, 1);
-    border-radius: 20px;
     width: 65%;
-    padding: 45px 35px;
+    padding: 0px 35px;
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 15px;
 }
 
 .main_accomodation a
@@ -328,13 +341,6 @@ main p
     text-decoration: none;
     list-style: none;
     color: rgba(0, 0, 0, 1);
-}
-
-.main_accomodation h2
-{
-    font-family: 'ralewaybold';
-    font-size: 22px;
-    margin-bottom: 25px;
 }
 
 .main_accomodation h3
@@ -430,8 +436,9 @@ main p
 {
     background-color: rgba(242, 242, 242, 1);
     border-radius: 15px;
+    border-radius: 15px;
     margin-left: 40px;
-    padding: 40px 45px;
+    padding: 30px 45px;
 }
 
 .aside_accomodation_header
@@ -530,13 +537,6 @@ main p
     margin-top: 40px;
     padding-top: 20px;
     margin-bottom: 50px;
-}
-
-.main_activity h2
-{
-    font-family: 'ralewaybold';
-    font-size: 22px;
-    margin-bottom: 25px;
 }
 
 .main_activity_content
@@ -747,7 +747,7 @@ footer
         justify-content: center;
         align-items: center;
         margin-left: -40px;
-        margin-right: -45px;
+        margin-right: -40px;
     }
     
     nav li
@@ -857,6 +857,7 @@ footer
     .main_filteroption li
     {
         margin-top: 15px;
+        margin-left: 10px;
     }
     
     /*___________________ Main-Filter Infos_____________ */
@@ -974,7 +975,7 @@ footer
         padding-right: 20px;
     }
     
-    .main_activity h2
+    .main_activity section h2
     {
         padding-left: 20px;
     }
